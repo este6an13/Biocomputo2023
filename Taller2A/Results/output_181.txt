@@ -1,0 +1,18 @@
+command 1
+TCT, Serine, S
+TCC, Serine, S 
+TCA, Serine, S
+TCG, Serine, S
+AGT, Serine, S
+AGC, Serine, S
+command 2
+TAA, Stop, Stop
+CAA, Glutamine, Q
+AAT, Asparagine, N
+AAC, Asparagine, N
+AAA, Lysine, K
+AAG, Lysine, K
+GAA, Glutamate, E
+command 3
+command 4
+AAA, Lysine, K

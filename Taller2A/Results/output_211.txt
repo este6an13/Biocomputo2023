@@ -1,0 +1,9 @@
+splits by space and prints third column
+S
+S
+S
+S
+S
+S
+number of lines that start by A and includes Lys
+2

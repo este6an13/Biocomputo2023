@@ -1,0 +1,3 @@
+splits string by X and prints 2 and 3 substrings
+conserves inner Xs unlike Python split
+bbXdd

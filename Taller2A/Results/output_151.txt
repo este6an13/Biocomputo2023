@@ -1,0 +1,32 @@
+command 1
+results:
+GGT, Glycine, G
+GGC, Glycine, G
+GGA, Glycine, G
+GGG, Glycine, G
+command 2
+results:
+==> ../Data/genetic_code.txt <==
+GGT, Glycine, G
+GGC, Glycine, G
+GGA, Glycine, G
+GGG, Glycine, G
+
+==> ../Data/genetic_code.txt <==
+GGT, Glycine, G
+GGC, Glycine, G
+GGA, Glycine, G
+GGG, Glycine, G
+command 3
+results:
+==> ../Data/genetic_code.txt <==
+GGT, Glycine, G
+GGC, Glycine, G
+GGA, Glycine, G
+GGG, Glycine, G
+
+==> ../Data/genetic_code.txt <==
+GGT, Glycine, G
+GGC, Glycine, G
+GGA, Glycine, G
+GGG, Glycine, G

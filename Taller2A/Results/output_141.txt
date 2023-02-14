@@ -1,0 +1,4 @@
+words:  192 ../Data/genetic_code.txt
+lines:  64 ../Data/genetic_code.txt
+chars:  1079 ../Data/genetic_code.txt
+bytes:  1079 ../Data/genetic_code.txt
