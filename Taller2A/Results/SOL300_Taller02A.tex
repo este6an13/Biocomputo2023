@@ -1,0 +1,28 @@
+\documentclass[10pt]{article}
+\usepackage{amsmath,amsfonts,amssymb,amsthm,amscd,enumerate}
+\usepackage[utf8x]{inputenc}
+\usepackage[spanish,english]{babel}
+\usepackage{epsfig}
+\usepackage{listings}
+
+\newcommand{\TODO}[1]{\begingroup\color{red}#1\endgroup}
+
+\begin{document}
+
+\section{Taller 2A: Uso de comandos de shell para procesar archivos}
+
+\section{Ejercicio Final}
+
+Utilizando los comandos anteriores:
+1. Cree un nuevo archivo con información de interés para usted. Archíve los resultados  en el directorio Result/. Indique que combinaciones y operador usted ha utilizado
+2. Utilize al menos tres combinaciones de comandos para generar nueva información.
+
+\subsection*{Solución}
+
+\subsubsection*{¿Cuáles codones terminan en "G" y se traducen a un aminoácido terminado en "ine"?}
+
+\begin{lstlisting}[language=sh]
+    grep "G,.*ine" Data/genetic_code.txt | cut -d ',' f1
+\end{lstlisting}
+
+\end{document}
