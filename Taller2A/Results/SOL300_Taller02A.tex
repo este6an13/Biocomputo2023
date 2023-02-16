@@ -41,4 +41,13 @@ grep -A1 "Dro.*lans" Data/mature.fa | grep -v '>' | grep -v '-'
 grep -B1 -v "A" Data/mature.fa | grep '>' | cut -d ' ' -f3,4 | sort | uniq
 \end{lstlisting}
 
+\begin{itemize}
+  \item Obtenemos líneas que no contienen "A" (Todos los encabezados tienen "A". Solo se obtienen secuencias.)
+  \item Incluímos la linea inmediatamente anterior a cada línea del paso anterior con "-B1".
+  \item Obtenemos los encabezados con '>'.
+  \item Obtenemos las columnas 3 y 4 que corresponden al nombre de la especie.
+  \item Ordenamos los resultados
+  \item Obtenemos una línea por cada especie con "uniq"
+\end{itemize}
+
 \end{document}
