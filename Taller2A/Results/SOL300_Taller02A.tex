@@ -7,7 +7,11 @@
 
 \newcommand{\TODO}[1]{\begingroup\color{red}#1\endgroup}
 
+\author{Diego Esteban Quintero Rey}
+
 \begin{document}
+
+
 
 \section{Taller 2A: Uso de comandos de shell para procesar archivos}
 
@@ -19,10 +23,22 @@ Utilizando los comandos anteriores:
 
 \subsection*{Solución}
 
-\subsubsection*{¿Cuáles codones terminan en "G" y se traducen a un aminoácido terminado en "ine"?}
+\subsubsection*{¿Cuáles codones terminan en "G" y se traducen a un aminoácido terminado en "ine"? (13 líneas)}
 
 \begin{lstlisting}[language=sh]
     grep "G,.*ine" Data/genetic_code.txt | cut -d ',' f1
+\end{lstlisting}
+
+\subsubsection*{¿Cuáles son las secuencias de Drosophila simulans? (178 líneas)}
+
+\begin{lstlisting}{[language=sh]}
+    grep -A1 "Dro.*lans" Data/mature.fa | grep -v '>' | grep -v '-' 
+\end{lstlisting}
+
+\subsubsection*{Liste las especies que tienen secuencias que no contienen "A" (35 líneas)}
+
+\begin{lstlisting}{[language=sh]}
+    grep -v B1 "A" Data/mature.fa | grep '>' | cut -d ' ' -f3,4 | sort | uniq
 \end{lstlisting}
 
 \end{document}
