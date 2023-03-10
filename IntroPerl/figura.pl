@@ -3,9 +3,9 @@
 # 10-03-2023
 # Intro Perl
 
-print "VERTICAL SQUARE WAVE\n";
+print "VERTICAL SQUARE WAVE\n\n";
 print "We're going to draw a vertical square wave:\n";
-print "Enter the following values (only positive integers):\n";
+print "Enter the following values (only positive integers):\n\n";
 
 print "Enter the period n: ";
 my $n = int(<>); # <> function to read input : int function to cast to integer
