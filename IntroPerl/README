@@ -1,0 +1,11 @@
+INSTRUCCIONES
+
+Para correr el programa use:
+
+perl figura.pl
+
+A continuación ingrese los parámetros: Todos deben ser enteros positivos:
+
+	n : Periodo: Número de ondulaciones de la onda
+	a : Altura: Número de caracteres que tendrá la onda horizontalmente
+	b : Longitud: Número de caracteres que tednrá la onda verticalmente en cada ondulación

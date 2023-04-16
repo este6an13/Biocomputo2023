@@ -1,0 +1,13 @@
+función vertical_square_wave(n, a, b) {
+    para i desde 0 hasta n-1 {
+        imprimir "o" repetido a veces, seguido de un salto de línea
+        para j desde 0 hasta b-3 {
+            imprimir " " repetido (a-1), seguido de "o" y un salto de línea
+        }
+        imprimir "o" repetido a veces, seguido de un salto de línea
+        para j desde 0 hasta b-3 {
+            imprimir "o\n"
+        }
+    }
+    imprimir "o" repetido a veces, seguido de un salto de línea
+}
